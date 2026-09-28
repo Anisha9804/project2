@@ -1,0 +1,30 @@
+course.to_sql(
+    name="courses",
+    con=engine,
+    if_exists="replace",
+    index=False
+)
+marks.to_sql(
+    name="marks",
+    con=engine,
+    if_exists="replace",
+    index=False
+)   
+payments.to_sql(
+    name="payments",
+    con=engine,
+    if_exists="replace",
+    index=False
+)
+students.to_sql(
+    name="students",
+    con=engine,
+    if_exists="replace",
+    index=False
+)
+trainers.to_sql(
+    name="trainers",
+    con=engine,
+    if_exists="replace",
+    index=False
+)
